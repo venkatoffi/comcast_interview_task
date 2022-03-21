@@ -10,10 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_03_21_124818) do
+ActiveRecord::Schema[7.0].define(version: 2022_03_21_125927) do
   create_table "apples", force: :cascade do |t|
     t.integer "basket_id"
     t.text "variety"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "baskets", force: :cascade do |t|
+    t.integer "capacity"
+    t.text "fill_rate"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

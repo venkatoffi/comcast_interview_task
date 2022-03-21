@@ -7,8 +7,8 @@ module Blending
   end
 
   def make_juice
-    p '----------------------------------------------------------'
-    p 'Do coding after save call back for Apple model only'
-    p '----------------------------------------------------------'
+    # p '----------------------------------------------------------'
+    # p 'Do coding after save call back for Apple model only'
+    # p '----------------------------------------------------------'
   end
 end
